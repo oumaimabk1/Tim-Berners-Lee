@@ -22,7 +22,8 @@ nav header{
     justify-content: space-between;
     align-items: center;
     padding: 1vw;
-    background-color: black;
+    background: rgb(130,5,100);
+    background: radial-gradient(circle, rgba(130,5,100,1) 0%, rgb(88, 37, 81) 31%, rgba(182,89,161,1) 69%, rgba(134,5,94,1) 100%);
     margin-bottom: 2rem;
     color: #fff;
     width: 100%;
@@ -34,16 +35,32 @@ nav header{
     width: 100%;
 }
 
-nav div{
-    padding-left: 4vw;
+nav>div{
+  max-width: 660px;
+  min-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 8px 36px rgba(157, 160, 175, 0.8);
+  box-shadow: 0 8px 36px rgba(157, 160, 175, 0.8);
+  margin-left: 20px;
 }
 nav span {
     margin: 20px;
 }
 nav a {
-    color: #14599d;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
     font-size: 20px;
+    font-weight: 600;
 }
+nav a:hover {
+    color: rgba(130,5,100,1);
+    padding-bottom: 0px;
+    border-bottom: 2px solid rgba(130,5,100,1);
+}
+
 
 .container{
     margin: 0vw 4vw;
