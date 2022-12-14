@@ -1,13 +1,5 @@
 # Tim-Berners-Lee
 
-<p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/markup-html-orange" alt="GitHub package.json version">
-  </a>
-  <a href="#" target="_blank" rel="noopener">
-    <img src="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language#/media/Fichier:HTML5_logo_and_wordmark.svg" alt="TEJP version">
-  </a>
-</p>
 
 == The mission
 
