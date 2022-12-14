@@ -22,8 +22,8 @@ nav header{
     justify-content: space-between;
     align-items: center;
     padding: 1vw;
-    background: rgb(130,5,100);
-    background: radial-gradient(circle, rgba(130,5,100,1) 0%, rgb(88, 37, 81) 31%, rgba(182,89,161,1) 69%, rgba(134,5,94,1) 100%);
+    background: black;
+    /*background: radial-gradient(circle, rgba(130,5,100,1) 0%, rgb(88, 37, 81) 31%, rgba(182,89,161,1) 69%, rgba(134,5,94,1) 100%);*/
     margin-bottom: 2rem;
     color: #fff;
     width: 100%;
@@ -36,14 +36,14 @@ nav header{
 }
 
 nav>div{
-  max-width: 660px;
+  /*max-width: 660px;
   min-width: 600px;
   background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   -webkit-box-shadow: 0 8px 36px rgba(157, 160, 175, 0.8);
   box-shadow: 0 8px 36px rgba(157, 160, 175, 0.8);
-  margin-left: 20px;
+  margin-left: 20px;*/
 }
 nav span {
     margin: 20px;
