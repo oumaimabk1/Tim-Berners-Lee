@@ -69,8 +69,8 @@ h6{
     font-weight: 400;
 }
 .links{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,25 +79,25 @@ h6{
 .links a{
     cursor: pointer;
     border: solid 1px #ddd;
-    margin:1vw;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin:10px 10px 10px 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #14599d;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .fa-solid{
-    margin-right: 1vw;
+    margin-right: .5vw;
 }
 .grey-text{
     color: rgb(143, 136, 136);
-    font-size: 12px;
+    font-size: 15px;
 }
 .header p a{
    color: #14599d;
-   font-size: 13px;
+   font-size: 15px;
 } 
 .Description{
     margin: 0 auto;
@@ -128,37 +128,35 @@ h6{
     font-size: large;
 }
 .informations{
-    margin : 10px 15px
+    margin : 10px 15px;
+    
 }
 .informations p {
     margin :10px 0px;
-    font-size: 15px;
+    font-size: 20px;
+    line-height: -5px
 }
 .informations p span{
    color: #14599d;
 }
+.informations a{
+    padding: .5vw 0vw;
+    color: gray;
+    border-radius: 10px;
+
+ }
 .text-informations{
-    margin: 20px 10px;
+    margin: 20px 0px;
 }
 
 .text-informations p{
-    margin: 20px 20px;
+    margin: 20px 0px;
     font-size: 20px;
 }
 .text-informations p a{
     color: #14599d;
 }
-@media only screen and (max-width: 1280px)and (min-width:481px){
-    .links{
-        justify-content: flex-start;
-    }
-    .Description{
-        width: 40vw;
-    }
-    .text-informations p{
-        font-size: 25px;
-    }
-}
+
 @media only screen and  (min-width:481px){
     .links{
         justify-content: flex-start;
@@ -168,15 +166,29 @@ h6{
     }
     .text-informations p{
         font-size: 25px;
+        line-height: 30px;
+    }
+    .Description{
+        margin-left: 0px;
     }
 }
 @media only screen and (min-width:1281px){
+    body{
+        margin: 0 auto;
+        width: 70%;
+    }
     .links{
         justify-content: flex-start;
         margin: 0px;
     }
     .logo{
         width: 30%;
+    }
+    nav>div{
+        padding-left: 0px;
+    }
+    .container{
+        margin: 20px 0px;
     }
     .Description{
         width: 40vw;
@@ -204,15 +216,12 @@ h6{
     }
     .text-informations p{
         font-size: 25px;
+        line-height: 2vw;
     }
     .header p{
-        font-size: 15px;
+        font-size: 20px;
     }
-    .container{
-        margin: 0 auto;
-        width: 70%;
-        margin-top: 20px;
-    }
+ 
     .sub-container{
         position: relative;
         width: 100%;
