@@ -49,17 +49,17 @@ nav span {
     margin: 20px;
 }
 nav a {
-    color: black;
+    color: #14599d;
     cursor: pointer;
-    text-decoration: none;
+    /*text-decoration: none;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600;*/
 }
-nav a:hover {
+/*nav a:hover {
     color: rgba(130,5,100,1);
     padding-bottom: 0px;
     border-bottom: 2px solid rgba(130,5,100,1);
-}
+}*/
 
 
 .container{
